@@ -481,15 +481,28 @@ ul { list-style: none; }
         <h3 class="proj-title">Máy Tính và Các Thiết Bị Ngoại Vi</h3>
         <div class="proj-goal">
           <div class="goal-label">🎯 Mục tiêu bài tập</div>
-          <p>Hiểu được cấu tạo cơ bản của máy tính, phân loại và chức năng của các thiết bị ngoại vi, cũng như mối quan hệ giữa phần cứng và phần mềm trong hệ thống máy tính.</p>
+          <p>Rèn luyện kỹ năng tạo, đổi tên, sao chép, di chuyển, xóa tệp tin và thư mục một cách thành thạo trên hệ điều hành Windows (có thể điều chỉnh cho macOS/Linux).</p>
         </div>
         <div class="proj-process">
           <div class="process-label">📋 Quá trình thực hiện</div>
           <ul class="process-list">
-            <li>Nghiên cứu tài liệu về cấu trúc máy tính (CPU, RAM, HDD/SSD)</li>
-            <li>Phân loại thiết bị ngoại vi: nhập liệu (chuột, bàn phím) và xuất liệu (màn hình, máy in)</li>
-            <li>Thực hành nhận biết và kết nối các thiết bị thực tế</li>
-            <li>Tổng hợp và trình bày báo cáo dưới dạng slide PowerPoint</li>
+            <li>1.Mở File Explorer: Nhấn tổ hợp phím Windows + E hoặc nhấp vào biểu tượng thư mục màu vàng trên thanh tác vụ.</li>
+            <li>2.Truy cập ổ đĩa/thư mục: Ở cột bên trái, nhấp vào This PC, sau đó nhấp đúp vào một ổ đĩa không phải ổ hệ thống (ví dụ: ổ D: hoặc E:). Nếu chỉ có ổ C:, hãy vào thư mục Documents.</li>
+            <li>3.Tạo thư mục mới: Nhấp chuột phải vào một khoảng trống -> chọn New -> Folder. Đặt tên thư mục là ThucHanh_hotensinhvien (ví dụ: ThucHanh_NguyenVanA). Nhấn Enter.</li>
+            <li>4.Vào thư mục vừa tạo: Nhấp đúp vào thư mục ThucHanh_NguyenVanA.</li>
+            <li>5.Tạo tệp tin văn bản: Nhấp chuột phải vào khoảng trống -> New -> Text Document. Đặt tên là GhiChu.txt. Nhấn Enter.</li>
+            <li>6.Đổi tên tệp tin: Nhấp chuột phải vào tệp GhiChu.txt -> chọn Rename. Đổi tên thành GhiChuQuanTrong.txt. Nhấn Enter.</li>
+            <li>7.Tạo thư mục con: Trong thư mục ThucHanh_NguyenVanA, nhấp chuột phải -> New -> Folder. Đặt tên là TaiLieu.</li>
+            <li>8.Sao chép tệp tin (Copy & Paste):
+- Nhấp chuột phải vào tệp GhiChuQuanTrong.txt -> chọn Copy (hoặc chọn tệp rồi nhấn Ctrl + C).
+- Nhấp đúp vào thư mục TaiLieu, nhấp chuột phải vào khoảng trống bên trong -> chọn Paste (hoặc nhấn Ctrl + V). Bây giờ bạn có một bản sao của tệp trong thư mục TaiLieu.</li>
+            <li>9.Di chuyển tệp tin (Cut & Paste):
+- Quay lại thư mục ThucHanh_NguyenVanA. Tạo một tệp mới tên là DiChuyen.txt.
+- Nhấp chuột phải vào tệp DiChuyen.txt -> chọn Cut (hoặc chọn tệp rồi nhấn Ctrl + X).
+- Nhấp đúp vào thư mục TaiLieu, nhấp chuột phải vào khoảng trống -> chọn Paste (hoặc nhấn Ctrl + V). Tệp gốc đã biến mất khỏi vị trí cũ và chỉ còn ở vị trí mới.</li>
+            <li>10.Xóa tệp tin: Trong thư mục TaiLieu, nhấp chuột phải vào tệp GhiChuQuanTrong.txt -> chọn Delete. Tệp sẽ được chuyển vào Thùng rác (Recycle Bin).</li>
+            <li>11.Xóa vĩnh viễn: Chọn tệp DiChuyen.txt, nhấn giữ phím Shift và nhấn phím Delete. Một cảnh báo sẽ hiện ra. Nếu đồng ý, tệp sẽ bị xóa vĩnh viễn mà không qua Thùng rác.</li>
+            <li>12.Khôi phục từ Thùng rác (Tùy chọn): Tìm biểu tượng Recycle Bin trên màn hình nền, nhấp đúp để mở. Tìm tệp GhiChuQuanTrong.txt đã xóa, nhấp chuột phải vào nó và chọn Restore. Tệp sẽ quay trở lại vị trí ban đầu.</li>
           </ul>
         </div>
         <div class="proj-products">
@@ -498,8 +511,6 @@ ul { list-style: none; }
             <a href="documents/baiTapTuan1.pdf" target ="_blank" class="product-btn pdf-btn" >
               <span class="btn-icon">📄</span> Báo cáo PDF
             </a>
-            <a href="#" class="product-btn slide-btn" onclick="showModal('slide','Slide thuyết trình Bài 1'); return false;">
-              <span class="btn-icon">📊</span> Slide trình bày
             </a>
           </div>
         </div>
@@ -521,15 +532,20 @@ ul { list-style: none; }
         <h3 class="proj-title">Khai Thác Dữ Liệu và Thông Tin</h3>
         <div class="proj-goal">
           <div class="goal-label">🎯 Mục tiêu bài tập</div>
-          <p>Nắm vững kỹ năng tìm kiếm, đánh giá và sử dụng thông tin trên Internet một cách hiệu quả; phân biệt được thông tin đáng tin cậy và thông tin sai lệch.</p>
+          <p>Phát triển kỹ năng tìm kiếm và đánh giá thông tin học thuật từ các nguồn đáng tin cậy.</p>
         </div>
         <div class="proj-process">
           <div class="process-label">📋 Quá trình thực hiện</div>
           <ul class="process-list">
-            <li>Thực hành tìm kiếm nâng cao trên Google với các toán tử tìm kiếm</li>
-            <li>Đánh giá độ tin cậy của các nguồn thông tin trực tuyến</li>
-            <li>Thu thập và tổng hợp dữ liệu từ nhiều nguồn khác nhau</li>
-            <li>Tạo infographic tóm tắt quy trình khai thác thông tin</li>
+            <li>1.Chọn một chủ đề liên quan đến ngành học của bạn.</li>
+            <li>2.Thực hiện tìm kiếm thông tin từ các nguồn sau:
+- Cơ sở dữ liệu học thuật (Google Scholar, Microsoft Academic, CSDL của thư viện trường)
+- Tạp chí khoa học chuyên ngành
+- Sách chuyên khảo
+- Các nguồn mở trên internet</li>
+            <li>3.Thu thập ít nhất 10 tài liệu tham khảo liên quan đến chủ đề (bao gồm ít nhất 5 bài báo khoa học).</li>
+            <li>4.Đánh giá độ tin cậy của mỗi nguồn thông tin dựa trên các tiêu chí: tác giả, cơ quan xuất bản, phương pháp nghiên cứu, trích dẫn, tính cập nhật.</li>
+            <li>5.Tạo bảng tổng hợp các nguồn thông tin với đánh giá và xếp hạng độ tin cậy.</li>
           </ul>
         </div>
         <div class="proj-products">
@@ -538,8 +554,6 @@ ul { list-style: none; }
             <a href="documents/baiTapTuan2.pdf" target="_blank" class="product-btn pdf-btn" >
               <span class="btn-icon">📄</span> Báo cáo PDF
             </a>
-            <a href="#" class="product-btn img-btn" onclick="showModal('image','Infographic: Quy trình khai thác thông tin'); return false;">
-              <span class="btn-icon">🖼️</span> Infographic
             </a>
           </div>
         </div>
@@ -561,7 +575,7 @@ ul { list-style: none; }
         <h3 class="proj-title">Tổng Quan Về Trí Tuệ Nhân Tạo</h3>
         <div class="proj-goal">
           <div class="goal-label">🎯 Mục tiêu bài tập</div>
-          <p>Hiểu các khái niệm cơ bản về Trí tuệ nhân tạo (AI), Machine Learning, Deep Learning; nhận biết ứng dụng AI trong cuộc sống và tác động của AI đến xã hội.</p>
+          <p>Phát triển kỹ năng viết prompt hiệu quả để tận dụng tối đa khả năng của các mô hình ngôn ngữ lớn trong học tập.</p>
         </div>
         <div class="proj-process">
           <div class="process-label">📋 Quá trình thực hiện</div>
@@ -576,10 +590,8 @@ ul { list-style: none; }
           <div class="products-label">📎 Sản phẩm cuối cùng</div>
           <div class="product-links">
             <a href="documents/baiTapTuan3.pdf" target="_blank" class="product-btn pdf-btn" onclick="showModal('pdf','Essay: Tổng quan về Trí tuệ nhân tạo'); return false;">
-              <span class="btn-icon">📄</span> Essay PDF
+              <span class="btn-icon">📄</span> Báo cáo PDF
             </a>
-            <a href="#" class="product-btn video-btn" onclick="showModal('video',''); return false;">
-              <span class="btn-icon">🎬</span> Video trình bày
             </a>
           </div>
         </div>
@@ -601,7 +613,7 @@ ul { list-style: none; }
         <h3 class="proj-title">Giao Tiếp và Hợp Tác Trong Môi Trường Số</h3>
         <div class="proj-goal">
           <div class="goal-label">🎯 Mục tiêu bài tập</div>
-          <p>Thành thạo các công cụ giao tiếp và cộng tác trực tuyến phổ biến như Google Workspace, Microsoft Teams; xây dựng kỹ năng làm việc nhóm hiệu quả trong môi trường số.</p>
+          <p>Thành thạo các công cụ hợp tác trực tuyến và thể hiện năng lực quản lý, điều phối cá nhân trong dự án nhóm.</p>
         </div>
         <div class="proj-process">
           <div class="process-label">📋 Quá trình thực hiện</div>
@@ -618,8 +630,6 @@ ul { list-style: none; }
             <a href="documents/baiTapTuan4.pdf" target="_blank" class="product-btn pdf-btn" >
               <span class="btn-icon">📄</span> Báo cáo PDF
             </a>
-            <a href="#" class="product-btn slide-btn" onclick="showModal('slide','Hướng dẫn sử dụng Google Workspace'); return false;">
-              <span class="btn-icon">📊</span> Hướng dẫn
             </a>
           </div>
         </div>
@@ -641,7 +651,7 @@ ul { list-style: none; }
         <h3 class="proj-title">Sáng Tạo Nội Dung Số</h3>
         <div class="proj-goal">
           <div class="goal-label">🎯 Mục tiêu bài tập</div>
-          <p>Phát triển kỹ năng tạo ra các nội dung số đa dạng như bài viết, hình ảnh, video; nắm vững quy trình sản xuất nội dung và cách đăng tải trên các nền tảng mạng xã hội.</p>
+          <p>Thành thạo việc sử dụng các công cụ AI tạo sinh để hỗ trợ quá trình sáng tạo nội dung số.</p>
         </div>
         <div class="proj-process">
           <div class="process-label">📋 Quá trình thực hiện</div>
@@ -656,10 +666,8 @@ ul { list-style: none; }
           <div class="products-label">📎 Sản phẩm cuối cùng</div>
           <div class="product-links">
             <a href="documents/baiTapTuan5.pdf" target="_blank" class="product-btn video-btn" >
-              <span class="btn-icon">🎬</span> Video giới thiệu
+              <span class="btn-icon">📄</span> Báo cáo PDF
             </a>
-            <a href="#" class="product-btn img-btn" onclick="showModal('image','Poster thiết kế bằng Canva'); return false;">
-              <span class="btn-icon">🖼️</span> Poster Canva
             </a>
           </div>
         </div>
@@ -673,7 +681,6 @@ ul { list-style: none; }
         <div class="proj-overlay">
           <span class="proj-num">06</span>
           <div class="proj-tags">
-            <span class="tag">Bài tập 4</span>
             <span class="tag tag-gold">Bài 6</span>
           </div>
         </div>
@@ -682,7 +689,7 @@ ul { list-style: none; }
         <h3 class="proj-title">An Toàn và Liêm Chính Học Thuật Trong Môi Trường Số</h3>
         <div class="proj-goal">
           <div class="goal-label">🎯 Mục tiêu bài tập</div>
-          <p>Nhận thức về các mối đe dọa an ninh mạng và cách bảo vệ bản thân; hiểu rõ khái niệm liêm chính học thuật, nhận dạng đạo văn và thực hành trích dẫn tài liệu đúng chuẩn.</p>
+          <p>Phát triển kỹ năng sử dụng AI có trách nhiệm và đạo đức trong học tập và nghiên cứu.</p>
         </div>
         <div class="proj-process">
           <div class="process-label">📋 Quá trình thực hiện</div>
@@ -699,8 +706,6 @@ ul { list-style: none; }
             <a href="documents/baiTapTuan6.pdf" target="_blank" class="product-btn pdf-btn" >
               <span class="btn-icon">📄</span> Báo cáo PDF
             </a>
-            <a href="#" class="product-btn slide-btn" onclick="showModal('slide','Hướng dẫn trích dẫn tài liệu đúng chuẩn'); return false;">
-              <span class="btn-icon">📋</span> Hướng dẫn
             </a>
           </div>
         </div>
